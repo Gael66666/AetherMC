@@ -1,0 +1,43 @@
+name: Build
+
+on:
+  workflow_call:
+    inputs:
+      build_type:
+        description: 'Build Type'
+        default: 'Debug'
+        type: string
+      version:
+        description: Version identifier
+        type: string
+        required: false
+    secrets:
+      SPARKLE_ED25519_KEY:
+        required: false
+
+jobs:
+  linux:
+    uses: ./.github/workflows/linux.yml
+    with:
+      build_type: ${{ inputs.build_type || 'Debug' }}
+      version: ${{ inputs.version }}
+
+  codeql:
+    uses: ./.github/workflows/codeql.yml
+    with:
+      build_type: ${{ inputs.build_type || 'Debug' }}
+      version: ${{ inputs.version }}
+
+  windows:
+    uses: ./.github/workflows/windows.yml
+    with:
+      build_type: ${{ inputs.build_type || 'Debug' }}
+      version: ${{ inputs.version }}
+
+  macos:
+    uses: ./.github/workflows/macos.yml
+    with:
+      build_type: ${{ inputs.build_type || 'Debug' }}
+      version: ${{ inputs.version }}
+    secrets:
+      SPARKLE_ED25519_KEY: ${{ secrets.SPARKLE_ED25519_KEY }}
