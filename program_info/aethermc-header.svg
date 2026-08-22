@@ -15,5 +15,5 @@
  <path d="m73.938 95.709-6.383-.961-6.384-8.325-6.384-.961-6.384-8.324-6.384-.962-6.383-8.324-6.384-.962-6.384-8.324-1.564-4.819c55.165 0 55.165 40.121 55.165 40.121z" fill="#88b858"/>
  <path d="m.53 6.685 7.937 5.766 7.937-5.766L8.467.918z" fill="url(#a)" transform="matrix(6.95 0 0 6.9572 17.626 7.241)"/>
  <path d="m22.868 58.567-1.564-4.82L76.469 93.87l55.166-40.122-1.564 4.82L76.47 97.55z" fill="none"/>
- <text x="160" y="82" font-family="Verdana, Arial, sans-serif" font-weight="bold" font-size="42" fill="#fff">AetherMC</text>
+ <text x="160" y="82" font-family="Verdana, Arial, sans-serif" font-weight="bold" font-size="38" fill="#fff">AetherMC</text>
 </svg>
