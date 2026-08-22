@@ -58,6 +58,7 @@
 #include "ui/themes/SystemTheme.h"
 #include "ui/themes/DarkTheme.h"
 #include "ui/themes/BrightTheme.h"
+#include "ui/themes/AetherTheme.h"
 #include "ui/themes/CustomTheme.h"
 
 #ifdef Q_OS_WIN
@@ -786,6 +787,7 @@ Application::Application(int &argc, char **argv) : QApplication(argc, argv)
         insertTheme(new SystemTheme());
         insertTheme(darkTheme);
         insertTheme(new BrightTheme());
+        insertTheme(new AetherTheme());
         insertTheme(new CustomTheme(darkTheme, "custom"));
         qDebug() << "<> Widget themes initialized.";
     }
