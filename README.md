@@ -1,6 +1,6 @@
 <p align="center">
-<img src="./program_info/aethermc-header-black.svg#gh-light-mode-only" alt="AetherMC logo" width="50%"/>
-<img src="./program_info/aethermc-header.svg#gh-dark-mode-only" alt="AetherMC logo" width="50%"/>
+<img src="./program_info/aethermc-header-black.svg?v=2#gh-light-mode-only" alt="AetherMC logo" width="50%"/>
+<img src="./program_info/aethermc-header.svg?v=2#gh-dark-mode-only" alt="AetherMC logo" width="50%"/>
 </p>
 
 AetherMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.
