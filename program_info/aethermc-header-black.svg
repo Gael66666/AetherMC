@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 376.77 135.47" xmlns="http://www.w3.org/2000/svg" class="home">
+<svg viewBox="0 0 376.77 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="a" x1="4.498" x2="12.435" y1="3.801" y2="9.568" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#88b858" offset="0"/>
-   <stop stop-color="#72b147" offset=".5"/>
-   <stop stop-color="#5a9a30" offset="1"/>
+  <linearGradient id="crystalTop2" x1="0" y1="0" x2="0" y2="1">
+   <stop stop-color="#9fd8f5" offset="0"/>
+   <stop stop-color="#5a9fd4" offset="1"/>
+  </linearGradient>
+  <linearGradient id="crystalLeft2" x1="0" y1="0" x2="1" y2="1">
+   <stop stop-color="#8b7ce8" offset="0"/>
+   <stop stop-color="#4d3f9e" offset="1"/>
+  </linearGradient>
+  <linearGradient id="crystalRight2" x1="0" y1="0" x2="0" y2="1">
+   <stop stop-color="#b09af0" offset="0"/>
+   <stop stop-color="#6b4fc4" offset="1"/>
   </linearGradient>
  </defs>
- <path d="M42.375 118.668s0-24.797 34.094-24.797c34.103 0 34.094 24.797 34.094 24.797z" fill="#765338"/>
- <path d="M76.47 93.872 42.376 118.67 21.304 53.751z" fill="#b7835a"/>
- <path d="m76.47 93.872 55.165-40.121-21.072 64.918z" fill="#5b422d"/>
- <path d="m79 95.709-2.53 1.84-2.532-1.84c0-1.84 2.531-1.84 2.531-1.84s2.531 0 2.531 1.84z" fill="#72b147"/>
- <path d="M76.47 93.872s0-40.121 55.165-40.121l-1.564 4.819-6.384 8.324-6.384.962-6.383 8.324-6.384.961-6.384 8.325-6.384.961-6.384 8.324-6.383.962z" fill="#5a9a30"/>
- <path d="m73.938 95.709-6.383-.961-6.384-8.325-6.384-.961-6.384-8.324-6.384-.962-6.383-8.324-6.384-.962-6.384-8.324-1.564-4.819c55.165 0 55.165 40.121 55.165 40.121z" fill="#88b858"/>
- <path d="m.53 6.685 7.937 5.766 7.937-5.766L8.467.918z" fill="url(#a)" transform="matrix(6.95 0 0 6.9572 17.626 7.241)"/>
- <path d="m22.868 58.567-1.564-4.82L76.469 93.87l55.166-40.122-1.564 4.82L76.47 97.55z" fill="none"/>
+ <polygon points="67.7,8 105,42 67.7,58 30.5,42" fill="url(#crystalTop2)"/>
+ <polygon points="30.5,42 67.7,58 67.7,128 24,66" fill="url(#crystalLeft2)"/>
+ <polygon points="105,42 67.7,58 67.7,128 111.5,66" fill="url(#crystalRight2)"/>
+ <polygon points="67.7,8 105,42 67.7,58 30.5,42" fill="#ffffff" opacity="0.2"/>
+ <polygon points="24,66 30.5,42 67.7,58 67.7,128" fill="#ffffff" opacity="0.08"/>
  <text x="160" y="82" font-family="Verdana, Arial, sans-serif" font-weight="bold" font-size="38" fill="#000">AetherMC</text>
 </svg>
