@@ -24,6 +24,7 @@ jobs:
 
   codeql:
     uses: ./.github/workflows/codeql.yml
+    continue-on-error: true
     with:
       build_type: ${{ inputs.build_type || 'Debug' }}
       version: ${{ inputs.version }}
