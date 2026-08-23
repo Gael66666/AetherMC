@@ -84,9 +84,9 @@ endif()
 ##################################### Set Application options #####################################
 
 ######## Set URLs ########
-set(Launcher_NEWS_RSS_URL "https://aethermc.org/feed/feed.xml" CACHE STRING "URL to fetch AetherMC's news RSS feed from.")
-set(Launcher_NEWS_OPEN_URL "https://aethermc.org/news" CACHE STRING "URL that gets opened when the user clicks 'More News'")
-set(Launcher_HELP_URL "https://aethermc.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help")
+set(Launcher_NEWS_RSS_URL "https://gael66666.github.io/AetherMC/feed.xml" CACHE STRING "URL to fetch AetherMC's news RSS feed from.")
+set(Launcher_NEWS_OPEN_URL "https://github.com/Gael66666/AetherMC/releases" CACHE STRING "URL that gets opened when the user clicks 'More News'")
+set(Launcher_HELP_URL "https://github.com/Gael66666/AetherMC/wiki" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help")
 
 ######## Set version numbers ########
 set(Launcher_VERSION_MAJOR 7)
